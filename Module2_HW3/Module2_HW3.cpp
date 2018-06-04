@@ -5,6 +5,7 @@
 #include<time.h>
 
 void main()
+
 {
 	srand(time(NULL));
 
@@ -238,8 +239,6 @@ void main()
 	}
 	else
 	{
-		printf("Нет заданий");
+		printf("Нет заданий\n\n");
 	}
-
-
 }
