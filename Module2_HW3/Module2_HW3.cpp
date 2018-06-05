@@ -12,6 +12,9 @@ void main()
 	setlocale(LC_ALL, "Rus");
 
 	int tn = 0;
+
+start:
+
 	printf("task number:\t");
 	scanf("%d", &tn);
 
@@ -223,7 +226,7 @@ void main()
 	else if (tn == 10)
 	{
 #pragma region 10. «аписать логическое выражение, которое определ€ет, принадлежит ли число ј интервалу  от -137 до -51 или интервалу от 123 до 55
-		int a = -150 + rand() % 150;
+		int a = -150 + rand() % 300;
 		printf("a=%d\n\n", a);
 
 		if ((a >= -137 && a <= -51) || (a >= 55 && a <= 123))
@@ -239,6 +242,7 @@ void main()
 	}
 	else
 	{
-		printf("Ќет заданий\n\n");
+		printf("no tasks\n\n");
 	}
+	goto start;
 }
