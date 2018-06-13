@@ -1,4 +1,4 @@
-﻿#include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
 #include<math.h>
@@ -14,6 +14,7 @@ void main()
 	int tn = 0;
 
 start:
+
 	printf("task number:\t");
 	scanf("%d", &tn);
 
